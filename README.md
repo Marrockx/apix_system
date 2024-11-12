@@ -50,7 +50,7 @@ The simulation results are visualized using GTKWave. Below are some key observat
    cd apix_systen
 2. Compile the Verilog files:
    ```bash
-   iverilog -o apix_system rtl/apix_transmitter.v rtl/apix_receiver.v testbench/apix_receiver_tb.v
+   iverilog -o apix_system rtl/apix_transmitter.v rtl/apix_receiver.v rtl/testbench/apix_receiver_tb.v
 
 3. Run the simulation:
    ```bash
@@ -60,6 +60,7 @@ The simulation results are visualized using GTKWave. Below are some key observat
    gtkwave waveforms/receiver_waveform.vcd
 
 <hr>
+
 ### 📊 Example Waveform
 
 The waveform shows:
