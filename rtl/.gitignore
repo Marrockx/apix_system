@@ -1,0 +1,56 @@
+// Ignore macOS system files
+    .DS_Store
+
+//  Ignore VCD waveform files
+    // *.vcd
+
+// Ignore Verilog and VHDL build artifacts
+    // *.out
+    // *.log
+    // *.vvp
+    // *.wdb
+    // *.wcfg
+    // *.vcd
+    // *.dat
+    // *.jou
+    // *.str
+
+// # Ignore synthesis and implementation files
+    // *.rpt
+    // *.xpr
+    // *.bit
+    // *.bin
+    // *.elf
+    // *.map
+    // *.mk
+    // *.d
+    // *.sdf
+    // *.svf
+    // *.log
+    // *.edf
+
+// # Ignore temporary and backup files
+//     * ~
+// *.bak
+//     *.tmp
+//     *.swp
+//     *.swo
+
+// # Ignore simulation output files
+// simv
+// simv.daidir /
+//     csrc /
+//     vc_hdrs.h
+//         .vcs /
+// .daidir /
+//     ucli.key
+
+// # Ignore IDE - specific files
+    .idea /
+    .vscode /
+    __pycache__ /
+
+# Ignore generated documentation
+    *.html
+    *.xml
+    *.pdf
